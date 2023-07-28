@@ -1,0 +1,59 @@
+Que es la grid conjunto de contenedores filas o columnas para dfinir como se mostrara el contenido en nuestra pagina web
+
+Cada fila esta dividida en 12 columnas en bootstrap
+
+clases para la grip 
+ 
+ row=fila  
+ col =columna 
+
+ col-sm = pequeño   576px
+ col-xs =extra pequeño 576px
+ col-md= mediano  768px
+ col-lg=grande 992px
+ col-xl=extra grande 1200px
+ col-xxl=muy muy grande 1400px
+
+Breakpoint 
+Dimension del ancho  a partir de la 601 px va a haber un cambio necesario en la pagina web
+
+Estructura de la grid
+
+un contenedor puede contener filas y este contiene 12 columnas
+
+contenedores = es un elemnto html que contiene elementos de html 
+
+.conteiner y 
+.conteiner-fluid=
+
+COMPONENTES 
+es un elemnto html reutilizable con un estilo predeterminado
+
+FLEXBOX
+
+Forma de crear una distribucion de cajas de html usando clases
+nos permite que los elementos que estan en un contenedor se ubiquen automaticamente al tamaño del dispositivo
+
+flex-direction: establece el eje principal de la direccion en la cual se van a colocar los elementos
+
+flex-direction:row en horizontal
+flex-direction:column en vertical
+
+justify-content: define como se distribuyen los elementos en el eje principal
+
+Alig-items: define como se distribuyen los elementos en el eje perpendicular 
+align-items-start : al inicio del contenedor
+align-items-end : al final del contenedor
+align-items-center: centrar al contenedor
+
+FLEX WRAP
+determina si los elementos deben ser ajustados
+
+
+
+
+
+
+
+
+

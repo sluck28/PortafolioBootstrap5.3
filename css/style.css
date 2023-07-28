@@ -1,0 +1,212 @@
+/* barra de navegacion */
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+
+}
+/* Estilos generales */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family:'Rubik Dirt', cursive;
+}
+.seccion-text{
+    font-size: 1.2rem;
+    text-justify: auto;
+}
+
+h1{
+    font-size: 2.5rem;  
+    font-family: 'Rubik Dirt', cursive; 
+}
+
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32;
+}
+.seccion-clara{
+    color: black;
+    background-color: white;
+
+}
+.seccion-descripcion{
+    font-size: 2.5rem;
+    color: #584e4e;
+}
+
+.hero-principal h2{
+
+    font-size: 1.5rem;
+    color: #615151;
+}
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-imagen{
+    width: 200px;
+    height: 200px;
+       
+}
+/* Seccion experiencia */
+.Experiencia{
+    padding: 40px 40px 60px 40px;
+}
+
+.Experiencia i{
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50px;
+}
+
+.experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.Experiencia .columna{
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* efecto de transicion */
+    transition: all 0.2s ease-in;
+}
+
+/* Proyectos */
+.proyectos-recientes{
+    padding: 40px;
+
+}
+
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+/* contenido que se pone sobre una imagen */
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.proyecto{
+    position: relative;
+}
+
+.overlay p{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.proyecto:hover img{
+    opacity: 0.2;
+}
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+
+/* efecto para cambiar de color al pasar el cursor */
+.Experiencia .columna:hover{
+    color: white;
+    background-color: #0a0a23;
+}
+/* badges */
+.badge-contenedor{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge{
+    margin: 5px;
+}
+
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+
+}
+/* sobre  mi*/
+.sobre-mi{
+    height: 500px; 
+      /* el relleno de los 4 lados de un elemento */
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{  
+    max-width: 600px;
+text-align: center;
+}
+
+.texto-negro{
+    color: black;
+}
+.texto-blanco{
+    color:white;
+}
+
+.btn-info{
+    font-size: 1.1rem;
+    margin: 20px;
+    
+
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+/* Adaptable responsivo */
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+/* para que no pcupe todo el ancho de la pantalla */
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
+
+    }
+}
+
+/* iconos contenedor */
+.overlay .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i{
+    font-size: 60px;
+    color: black;
+    margin: 10px;
+}
+
